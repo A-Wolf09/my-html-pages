@@ -1,0 +1,166 @@
+.top-of-page {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: fr fr;
+    width: auto;
+    justify-content: space-between;
+   
+}
+
+.app-academy-button {
+
+display: flex;
+grid-row: 1;
+grid-column: 1;
+border: 3px solid black;
+width: fit-content;
+margin-left: 50px;
+padding: 5px;
+width: 150px;
+justify-content: center;
+}
+
+.sign-in {
+display: flex;
+grid-row: 1;
+grid-column: 2;
+width: fit-content;
+border-style: solid;
+border-width: 3px;
+border-color: black;
+align-items: center;
+margin-right: 100px;
+padding: 5px;
+justify-content: center;
+width: 100px;
+}
+
+.header {
+display:grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+width: auto;
+justify-items: center;
+border-color: black;
+border-style: solid;
+border-width: 5px 0px 5px 0px;
+padding: 3px;
+
+}
+
+.top-body {
+
+font-size: 28px;
+width: 75%;
+margin: auto;
+border: 5px solid black;
+padding-left: 25px;
+padding-right: 0px;
+}
+
+.author {
+display: grid;
+grid-template-rows: 1;
+grid-template-columns: 150px 100px 1fr 60px 60px 100px 150px;
+margin-top: 20px;
+align-content: center;
+justify-content: center;
+}
+
+.author-title{
+    display:grid;
+    grid-column: 2 / 3;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.fb-button {
+position: relative;
+height: 50px;
+width: 50px;
+object-fit: fill;
+grid-column: 4 / 5;
+border: 3px solid black;
+}
+
+.twitter-button {
+    position: relative;
+    display: grid;
+width: 50px;
+height: 50px;
+border: 3px solid black;
+
+}
+
+.share-button {
+    position: relative;
+    display: grid;
+    width: 100;
+    height: 50px;
+    border: 3px solid black;
+    justify-content: center;
+    align-content: center;
+    
+}
+.main-image {
+margin: 20px 150px 20px 150px;
+width: fit-content;
+height: auto;
+}
+
+.main-paragraph {
+margin: 10px 150px 10px 150px;
+font-size: 20px;
+}
+
+.lists {
+display: grid;
+grid-template-rows: 50px 1fr;
+grid-template-columns: 1fr 1fr;
+border: 3px solid black;
+margin: 0px 150px 0px 150px;
+height: auto;
+font-size: 18px;
+align-items: space-between;
+padding-left: 50px
+}
+
+.iterative {
+margin: auto;
+grid-row: 2;
+grid-column: 1 / 2;
+font-size: 18px;
+}
+
+.recursive {
+grid-row: 2;
+grid-column: 2 / 3;
+font-size: 18px;
+margin: auto;
+}
+
+
+.footer {
+display: grid;
+grid-template-rows: 1;
+grid-template-columns: 300px 200px 1fr;
+height: 75px;
+margin: 40px 0px 20px 20px
+}
+
+.aa-logo {
+border: 5px solid black;
+height: 100px;
+width: 300px;
+
+}
+
+.links {
+display: flex;
+grid-column: 3 / 4;
+flex-flow: row;
+justify-content: space-around;
+margin-right: 50px;
+align-items: center;
+}
